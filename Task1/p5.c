@@ -4,11 +4,11 @@ int main()
   int a,z=0;
   printf("Enter no");
   scanf("%d",&a);
-  for(int u=a;u>=1;u--)
+  for(int u=1;u<=a;u++)
     {
-       for(int v=1;v<=u;v++)
+       for(int v=a;v>=u;v--)
         {
-         printf("%d ",v);
+         printf("%d ",u);
         } 
         printf("\n");
         z=z+2;
